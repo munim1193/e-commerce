@@ -1,0 +1,144 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 40px 10%;
+}
+
+.searchhead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background-color: white;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--Grey, #ECEFF1);
+    padding: 0 20px;
+}
+
+.searchfeild {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchdropdown {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.dropdown-toggle {
+    width: 100%;
+    border: none;
+    height: 60%;
+    border-right: solid #7C7C7C;
+}
+
+.searchfeild {
+    display: flex;
+    height: 100%;
+    width: 70%;
+}
+
+.search-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: var(--Grey, #ECEFF1);
+}
+
+.search-input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.search-button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-left: solid #7C7C7C;
+    padding-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #7C7C7C;
+}
+
+.chart-button {
+    display: flex;
+    flex-direction: row;
+    background: #FFC831;
+    border-radius: 4px;
+    width: 18%;
+    height: 100%;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chart-button:hover {
+    background: #916b03;
+}
+
+.shoptext {
+    color: var(--Black-Text, #1E1E1E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 1.25px;
+}
+
+.productcomponents {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.filter-button{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .products {
+        margin: 0px 0%;
+    }
+
+    .searchhead {
+        padding: 10px;
+        background: var(--Black-Text, #1E1E1E);
+        height: 80px;
+    }
+
+    .chart-button {
+        display: none;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+}

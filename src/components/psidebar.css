@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.psidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 23%;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+}
+
+.fimg {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ftext {
+  color: var(--Black-Text, #1E1E1E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.spacer {
+  width: 240px;
+  height: 1px;
+  background: #CCC;
+  margin: 10px 5px;
+}
+
+.appliedfilter {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  gap: 20px;
+}
+
+.afhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.afhtext {
+  color: var(--Black-Text, #1E1E1E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.afhtext2 {
+  color: var(--Black-Text, #1E1E1E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+}
+
+.afselect {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.afstext {
+  background-color: #CCC;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.categorybox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+}
+
+.categoryhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.ctext {
+  color: var(--Black-Text, #1E1E1E);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.ccheckbox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.cccheckbox {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  width: 1.75rem;
+  height: 1.75rem;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.custom-checkbox input[type="checkbox"].color1 {
+  background-color: #f0f0f0;
+}
+
+.custom-checkbox input[type="checkbox"].color2 {
+  background-color: #ffcccb;
+}
+
+.custom-checkbox input[type="checkbox"].color3 {
+  background-color: #ffeb3b;
+}
+
+.custom-checkbox input[type="checkbox"].color4 {
+  background-color: #8bc34a;
+}
+
+.custom-checkbox input[type="checkbox"].color5 {
+  background-color: #03a9f4;
+}
+
+.custom-checkbox input[type="checkbox"].color6 {
+  background-color: #9c27b0;
+}
+
+.custom-checkbox input[type="checkbox"].color7 {
+  background-color: #ff9800;
+}
+
+.custom-checkbox input[type="checkbox"].color8 {
+  background-color: #795548;
+}
+
+.custom-checkbox input[type="checkbox"].color9 {
+  background-color: #cddc39;
+}
+
+.custom-checkbox input[type="checkbox"].color10 {
+  background-color: #e91e63;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::before {
+  content: '✔';
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.arrow {
+  transition: transform 0.5s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .psidebar {
+    display: none;
+  }
+}

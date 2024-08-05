@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.card {
+    width: 32%;
+    text-align: start;
+}
+.card:hover{
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.5), 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .name {
+    color: var(--Black-Text, #1E1E1E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 14.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.card p {
+    color: var(--Black-Text, #1E1E1E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+}
+
+.card .ratetext {
+    color: var(--Black-Text, #1E1E1E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+    letter-spacing: 0.4px;
+}
+
+.card .amount {
+    color: var(--Black-Text, #1E1E1E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.button1 {
+    display: flex;
+    width: 80%;
+    padding: 11px 16px 11px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Black-Text, #1E1E1E);
+    color: white;
+}
+.button1:hover{
+    color: var(--Black-Text, #1E1E1E);
+    background: white;
+}
+
+.button2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #ECEFF1;
+    border: none;
+}
+
+.button2:hover{
+    background: rgb(126, 126, 126);
+}
+
+.starimg {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 48%;
+    }
+  }
