@@ -115,7 +115,7 @@ const Pbody = () => {
       {showDummyList && (
         <div className='dummy-list'>
           <div className='ctext'>Category</div>
-          <div className='ccheckbox'>
+          <div className='cccheckbox'>
             <div className='cbox'>
               <input type='checkbox' id='vehicle1' name='vehicle1' value='All' />
               <label htmlFor='vehicle1'> All</label>
@@ -135,7 +135,7 @@ const Pbody = () => {
           </div>
 
           <div className='ctext'>Stock Status</div>
-          <div className='ccheckbox'>
+          <div className='cccheckbox'>
             <div className='cbox'>
               <input type='checkbox' id='stock1' name='stock1' value='In Stock' />
               <label htmlFor='stock1'> In Stock</label>
@@ -147,7 +147,7 @@ const Pbody = () => {
           </div>
 
           <div className='ctext'>Size</div>
-          <div className='ccheckbox'>
+          <div className='cccheckbox'>
             <div className='cbox'>
               <input type='checkbox' id='size1' name='size1' value='Small' />
               <label htmlFor='size1'> Small</label>
@@ -171,7 +171,7 @@ const Pbody = () => {
           </div>
 
           <div className='ctext'>Colour</div>
-          <div className='ccheckbox'>
+          <div className='cccheckbox'>
             <div className="checkbox custom-checkbox">
               <label htmlFor="vehicle1">
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" className="color1" />

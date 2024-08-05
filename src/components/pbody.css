@@ -105,7 +105,7 @@
         align-items: center;
 }
 
-.ccheckbox{
+.cccheckbox{
         display: flex;
         flex-direction: row;
 }
